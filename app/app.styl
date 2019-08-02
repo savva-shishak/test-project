@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap')
+
+body
+    margin 0
+    padding 0
+    background-image url("./assets/images/background.png")
+    background-size 100%
+    background-repeat no-repeat
+
+    main
+        height auto
+        .container
+            width 100%
+            max-width 1300px
+            margin 0 auto
+        
+    /**
+     * убирает все рамки с кнопки после нажатия 
+     */
+    button 
+        cursor pointer
+        &:focus
+            outline none
+        &:active
+            opacity .5
